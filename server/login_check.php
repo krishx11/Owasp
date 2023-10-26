@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         //     }
         // }
         $_SESSION["Username"] = $username;
-        header('Location: ../form/dashboard.php');
+        header('Location: ../form/admin.php');
         exit();
         
     }
